@@ -13,6 +13,7 @@ export const Container = styled.div`
   &:hover {
     opacity: 0.8;
   }
+  
 `;
 
 export const IconArea = styled.div`

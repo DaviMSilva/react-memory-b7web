@@ -17,11 +17,11 @@ export const Container = styled.div`
 `;
 
 export const Info = styled.div`]
-  display: flex;
+  display:flex;
   flex-direction: column;
   width: auto;
-
-  @media (max-width: 750px){
+  
+  @media (max-width 750px){
     margin-bottom: 50px;
     align-items: center;
   }
@@ -38,7 +38,8 @@ export const InfoArea = styled.div`
   @media (max-width: 750px){
     display: flex;
     justify-content: space-around;
-    text-align: center
+    text-align: center;
+    align-items: center;
   }
 `;
 
@@ -60,4 +61,8 @@ export const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
+
+  @media (max-width: 750px){
+    grid-template-columns: repeat(3, 1fr)
+  }
 `;
